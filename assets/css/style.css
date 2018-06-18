@@ -1,3 +1,87 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/roboto.ttf');
+}
+/*-------------------------------------------------------------------LG------------------------------------------------------------------------*/
+footer{
+  background-color: rgb(238,238,238);
+}
+.lgmenugris{
+  padding-left:30px;
+  font-family: 'roboto';
+  font-size:12px;
+}
+#limenufin{
+  list-style-type:none;
+  display: flex;
+  padding-top:10px;
+}
+#hptxt1:hover{
+  color : blue;
+}
+#hptxt1{
+  list-style-type: none;
+  text-decoration: none;
+  color:black;
+  padding:10px;
+}
+.selecteur2{
+  display: flex;
+  padding-left:200px;
+  padding-top:12px;
+}
+.menufoot{
+  background-color: rgb(0,125,184);
+}
+#hptxt2{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding:5px;
+}
+#limenufoot{
+  font-size:12px;
+  display: flex;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.colfoot{
+  border-bottom: 1px solid grey;
+  padding-left:30px;
+}
+.parafoot{
+  padding-top:10px;
+  padding-right:100px;
+}
+p{
+  font-size:12px;
+  padding-left:73px;
+  font-family: 'roboto';
+  color:white;
+}
+#para1{
+  text-decoration: underline;
+  font-weight:bold;
+}
+#para2{
+  font-weight:bold;
+}
+.foot{
+  background-color: rgb(0,125,184);
+}
+/*----------------------------------------------------------------XS----------------------------------------------------------------------------*/
+.xsmenugris{
+  font-size:12px;
+  margin:0px;
+  background-color: rgb(238,238,238);
+}
+.xsselecteur{
+  background-color: rgb(238,238,238);
+}
+.xsselecteur2{
+
+}
+/*-------------------------------------------------------Travail clément----------------------------------------------------------------------------*/
 .featuresH{
   font-size: 18px;
 }
