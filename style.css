@@ -1,3 +1,10 @@
 nav{
 background-color: #0075BA
 }
+ input {
+  display: inline-block;
+  width: 100px;
+}
+nav-item{
+  color:white;
+}
