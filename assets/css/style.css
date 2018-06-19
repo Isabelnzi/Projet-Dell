@@ -1,21 +1,9 @@
-.featuresH{
-  font-size: 18px;
+nav{
+background-color: #0075BA;
 }
-.featuresTitle{
-  font-size: 28px;
-  line-height: 38px;
-  padding-top: 20px;
-  color: #444444;
+.a{
+  margin-right: auto;
 }
-#titleEEA{
-  padding-top: 20px;
-}
-#products{
-  padding-top: 20px;
-}
-@media query  {
-
-}
-.features{
-margin: 0;
+.block{
+  background-color: #0075BA;
 }
