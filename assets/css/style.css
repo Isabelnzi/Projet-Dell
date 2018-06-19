@@ -1,37 +1,116 @@
+/*-------------------------------------------------------------Travail fabien---------------------------------------------------------------------*/
 @font-face {
   font-family: 'roboto';
   src: url('../font/roboto.ttf');
 }
 /*-------------------------------------------------------------------LG------------------------------------------------------------------------*/
-footer{
-  background-color: rgb(238,238,238);
+.featuresH{
+  font-size: 18px;
+}
+.featuresTitle{
+  font-size: 28px;
+  line-height: 38px;
+  padding-top: 20px;
+  color: #444444;
+}
+#titleEEA{
+  padding-top: 20px;
+}
+#products{
+  padding-top: 20px;
+}
+@media query  {
+
+}
+.features{
+margin: 0;
+}
+body{
+	font-family: 'roboto';
+}
+.rowliv a:hover{
+	background-color: white;
+  text-decoration: none;
+}
+.blockxl{
+  text-align:center;
+	background-color: rgb(238,238,238);
+	color:black;
+  margin-top:50px;
+  height: 150px;
+  padding-top:20px;
+  margin-bottom:0;
+}
+.textebleu{
+	font-size: 15px;
+	line-height: 13px;
+  color:blue;
+}
+.textenoir{
+	font-size:11px;
+	color: black;
+}
+.avantage, .Shipping, .financing{
+	width:33px;
+	height:33px;
+	padding-bottom: 5px;
+}
+.blockxs{
+	display: flex;
+	justify-content: center;
+	height:70px;
+	width:100%;
+	background-color: rgb(238,238,238);
+}
+.avantagexs, .Shippingxs, .financingxs{
+	width:33px;
+	height:33px;
+	float: left;
+	overflow: hidden;
+	position: fixed;
+	padding-top:10px;
+}
+.textenoirxs{
+	width:100%;
+  padding-left:50px;
+	text-decoration: none;
+	color:black;
+	font-size:11px;
+}
+.textebleuxs{
+	width:100%;
+	padding-left:50px;
+	text-decoration: none;
+	color:blue;
+	font-size: 15px;
+	padding-top:5px;
 }
 .lgmenugris{
-  padding-left:30px;
-  font-family: 'roboto';
-  font-size:12px;
+  background-color: rgb(238,238,238);
+  margin-top:2px;
+  height:50px;
 }
 #limenufin{
-  list-style-type:none;
+  font-size:12px;
   display: flex;
-  padding-top:10px;
+  justify-content: space-around;
 }
-#hptxt1:hover{
-  color : blue;
+.menufoot{
+  background-color: rgb(0,125,184);
 }
 #hptxt1{
   list-style-type: none;
   text-decoration: none;
   color:black;
-  padding:10px;
+  padding-top:15px;
+  font-size:11px;
 }
-.selecteur2{
-  display: flex;
-  padding-left:200px;
-  padding-top:12px;
+#hptxt1:hover{
+  color:blue;
 }
-.menufoot{
-  background-color: rgb(0,125,184);
+.selectpicker{
+  padding-top: 7px;
+  padding-left:100px;
 }
 #hptxt2{
   list-style-type: none;
@@ -49,23 +128,6 @@ footer{
   border-bottom: 1px solid grey;
   padding-left:30px;
 }
-.parafoot{
-  padding-top:10px;
-  padding-right:100px;
-}
-p{
-  font-size:12px;
-  padding-left:73px;
-  font-family: 'roboto';
-  color:white;
-}
-#para1{
-  text-decoration: underline;
-  font-weight:bold;
-}
-#para2{
-  font-weight:bold;
-}
 .foot{
   background-color: rgb(0,125,184);
 }
@@ -77,9 +139,6 @@ p{
 }
 .xsselecteur{
   background-color: rgb(238,238,238);
-}
-.xsselecteur2{
-
 }
 /*-------------------------------------------------------Travail clément----------------------------------------------------------------------------*/
 .featuresH{
