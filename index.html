@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title></title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  </head>
-  <body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <div class="container-fluid">
+</head>
+<body>
   <nav class="navbar navbar-light bg-primary">
-  <img src="http://1000logos.net/wp-content/uploads/2017/07/dell-symbol.jpg"width="60"height="60" alt="logo dell" title="logo dell">
-  <div class="container">
+    <div class="offset-lg-1 col-lg-10">
+      <div class="input-group input-group-sm mb-4">
+      <img src="http://1000logos.net/wp-content/uploads/2017/07/dell-symbol.jpg" width="45" height="45" alt="logo dell" title="logo dell" />
+      <input type="text" class="form-control" placeholder="Comment pouvons-nous vous aider?" aria-label="Comment peut on vous aider?" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <span class="input-group-text bg-primary" id="basic-addon2">Rechercher</span>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <div class="container block">
+  <div class="row">
     <div class="col-lg-12">
-      <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Comment pouvons nous vous aider?" aria-label="Recipient's username" aria-describedby="basic-addon2">
-  <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">Rechercher</span>
-    <span class="glyphicon glyphicon-user"></span>
+      <div class="btn btn-primary dropdown">
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Ordinateurs portables</a>
+          <a class="dropdown-item" href="#">Gaming</a>
+          <a class="dropdown-item" href="#">Ordinateurs de bureau et tout en un</a>
+          <a class="dropdown-item" href="#">Tablettes et ordinateurs portables 2 en 1</a>
+        </div>
+        <a class="btn btn-primary dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Produits</a>
+        <a class="btn btn-primary dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Solutions</a>
+        <a class="btn btn-primary dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services</a>
+        <a class="btn btn-primary dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Supports</a>
+        <a class="btn btn-primary dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Offres</a>
+      </div>
+    </div>
   </div>
-  <div class="container">
-  <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Produits</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Solutions</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Supports</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Services</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Offres</a>
-  </li>
-</ul>
-  </body>
+</div>
 </html>
