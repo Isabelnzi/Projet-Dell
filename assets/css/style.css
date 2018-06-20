@@ -7,3 +7,187 @@ background-color: #0075BA;
 .block{
   background-color: #0075BA;
 }
+/*-------------------------------------------------------------Travail fabien---------------------------------------------------------------------*/
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/roboto.ttf');
+}
+/*-------------------------------------------------------------------LG------------------------------------------------------------------------*/
+.featuresH{
+  font-size: 18px;
+}
+.featuresTitle{
+  font-size: 28px;
+  line-height: 38px;
+  padding-top: 20px;
+  color: #444444;
+}
+#titleEEA{
+  padding-top: 20px;
+}
+#products{
+  padding-top: 20px;
+}
+@media query  {
+
+}
+.features{
+margin: 0;
+}
+body{
+	font-family: 'roboto';
+}
+.rowliv{
+  margin-top:20px;
+}
+.rowliv a:hover{
+	background-color: white;
+  text-decoration: none;
+}
+.blockxl{
+  text-align:center;
+	background-color: rgb(238,238,238);
+	color:black;
+  height: 150px;
+  padding-top:20px;
+  margin-bottom:0;
+}
+.textebleu{
+	font-size: 17px;
+	line-height: 13px;
+  color:blue;
+}
+.textenoir{
+	font-size:13px;
+	color: black;
+}
+.avantage, .Shipping, .financing{
+	width:33px;
+	height:33px;
+}
+.lgmenugris{
+  background-color: rgb(238,238,238);
+  margin-top:2px;
+  height:50px;
+}
+#limenufin{
+  font-size:14px;
+  display: flex;
+  justify-content: space-around;
+}
+.menufoot{
+  background-color: rgb(0,125,184);
+  margin:0;
+  padding:0;
+  width:100%;
+}
+#hptxt1{
+  list-style-type: none;
+  text-decoration: none;
+  color:black;
+  padding-top:15px;
+  font-size:14px;
+}
+#hptxt1:hover{
+  color:blue;
+}
+#hptxt2{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding:5px;
+}
+#limenufoot{
+  font-size:14px;
+  display: flex;
+  margin-top:8px;
+  margin-bottom:8px;
+  padding-left:0;
+  margin-left:0;
+  justify-content: space-around;
+}
+.colfoot{
+  border-bottom: 1px solid grey;
+  padding:0;
+  margin:0;
+}
+.foot{
+  background-color: rgb(0,125,184);
+}
+/*----------------------------------------------------------------XS----------------------------------------------------------------------------*/
+.blockxs{
+	background-color: rgb(238,238,238);
+  display: flex;
+  margin:0;
+  padding:0;
+  height:70px;
+}
+.Shippingxs{
+	width:33px;
+	height:40px;
+  float:left;
+  margin-top:20px;
+}
+.avantagexs{
+	width:33px;
+	height:40px;
+  float:left;
+  margin-top:15px;
+}
+.financingxs{
+	width:33px;
+	height:40px;
+  float:left;
+  margin-top:15px;
+}
+.textenoirxs{
+	text-decoration: none;
+	color:black;
+	font-size:11px;
+}
+.textebleuxs{
+	text-decoration: none;
+	color:blue;
+	font-size: 15px;
+}
+.xsmenugris{
+  font-size:12px;
+  margin:0px;
+  background-color: rgb(238,238,238);
+}
+.xsselecteur{
+  background-color: rgb(238,238,238);
+}
+.limenufinxs{
+  font-size:11px;
+  margin:0;
+}
+.blockfinbleuxs{
+  font-size:11px;
+  margin:0;
+  padding:0;
+  border-bottom:1px solid white;
+}
+.blockfinxs{
+  height:50px;
+  border-bottom: 1px solid grey;
+  margin:0;
+  padding:0;
+}
+footer{
+  background-color: rgb(238,238,238);
+  margin-top:0;
+}
+.finbleu{
+  background-color: rgb(0,125,184);
+}
+.selectpickerxs{
+  height:50px;
+}
+select{
+  height:10px;
+  width:100px;
+  font-size:11px;
+  margin:10px;
+
+}
